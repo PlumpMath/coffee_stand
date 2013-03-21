@@ -1,0 +1,9 @@
+@import "app";
+
+/* Styling */
+
+header {
+  @include grid-row;
+  @include grid-column(12);
+}
+
